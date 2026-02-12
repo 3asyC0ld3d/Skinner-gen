@@ -183,4 +183,6 @@ async def on_ready():
     refresh_stock_loop.start()
     print(f"Logged in as {bot.user}")
 
+keep_alive()
+
 bot.run(TOKEN)
